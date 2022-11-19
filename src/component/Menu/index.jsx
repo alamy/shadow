@@ -24,7 +24,7 @@ export default function MenuApp() {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
       >
-        <MenuIcon sx={{ color: 'white' }} />
+        <MenuIcon sx={{ color: 'black' }} />
       </Button>
       <Menu
         id="demo-positioned-menu"
@@ -42,9 +42,10 @@ export default function MenuApp() {
         }}
       >
         <MenuItem onClick={handleClose}>Perfil</MenuItem>
-        <MenuItem onClick={handleClose}>Históricos</MenuItem>
         <MenuItem onClick={handleClose}>Rotas</MenuItem>
+        <MenuItem onClick={handleClose}>Histórico</MenuItem>
         <MenuItem onClick={handleClose}>Seja Premium</MenuItem>
+        <MenuItem onClick={handleClose}>Ajuda</MenuItem>
       </Menu>
     </div>
   );

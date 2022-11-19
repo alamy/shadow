@@ -14,14 +14,18 @@ export default function Home() {
         <ThemeProvider theme={theme}>
             <MenuApp />
             <Grid sx={{height: '77vh'}}>
-                <div className='menu' id="inclusive" onClick={()=>navegation('/inclusivo')}><span>Rota <br/>Inclusiva</span></div>
-                <div className='menu' id="cultural"><span>Cultural</span></div>
-                <div className='menu' id="parques"><span>Parques</span></div>
-                <div className='menu' id="igrejas"><span>Igrejas</span></div>
-                <div className='menu' id="alternativa"><span>Alternativa</span></div>
+            <div className='menu' id="cultural" onClick={()=>navegation('/rota')}><span>Rota <br/>Cultural</span></div>
+            <div className='menu' id="parques" onClick={()=>navegation('/rota')}><span> Passeio <br/>Pelos Parques</span></div>
+            <div className='menu' id="alternativa" onClick={()=>navegation('/rota')}><span>Rota <br/>Alternativa</span></div>    
+                <div className='menu' id="inclusive" onClick={()=>navegation('/rota')}><span>Rota <br/>Inclusiva</span></div>
+                
+                
+                <div className='menu' id="igrejas" onClick={()=>navegation('/rota')}><span>Rota <br/>Igrejas</span></div>
+                
+                <div className='menu' id="radio" onClick={()=>navegation('/rota')}><span>Rádio <br/>Recife</span></div>
             </Grid>
    
-           <FlagPremium />
+           <FlagPremium name="Seja Premium"/>
         </ThemeProvider>
         )
 

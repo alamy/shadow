@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/inclusivo" element={<Inclusivo />} />
+          <Route path="/rota" element={<Inclusivo />} />
         </Routes>
       </Router>
   );
