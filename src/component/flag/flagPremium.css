@@ -1,0 +1,13 @@
+.premium {
+    width: 90%;
+    margin: 0px auto;
+    background:#ff4d00 ;
+    height: 9vh;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    padding-top:0.6vh;
+    font-weight: bold;
+    color: #ffff;
+
+}
