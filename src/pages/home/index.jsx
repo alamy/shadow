@@ -24,8 +24,9 @@ export default function Home() {
                 
                 <div className='menu' id="radio" onClick={()=>navegation('/rota')}><span>Rádio <br/>Recife</span></div>
             </Grid>
-   
+            <div onClick={ navegation('/premium')}>
            <FlagPremium name="Seja Premium"/>
+           </div>
         </ThemeProvider>
         )
 

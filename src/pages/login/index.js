@@ -30,10 +30,6 @@ export default function Login() {
     } else {
       alert("Usuário inexistente")
     }
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
   };
 
   return (
