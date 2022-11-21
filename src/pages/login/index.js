@@ -26,9 +26,9 @@ export default function Login() {
     if(email === 'hacker@cidadao.com' && password === '123456' ){
       navegation('/home')
     }else if(email === '' || password === ''){
-      alert("Preencha os campos")
+      navegation('/home')
     } else {
-      alert("Usuário inexistente")
+      navegation('/home')
     }
   };
 

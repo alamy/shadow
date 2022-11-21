@@ -17,7 +17,7 @@ export default function Premium( ){
             <p>{conteudo.texto2}</p>
              
             <div className='premium' onClick={ navegation('/home')}>
-                <p>Entrar</p>
+                <p>Contratar</p>
             </div>
             
         </div>

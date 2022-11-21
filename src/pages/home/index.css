@@ -10,7 +10,7 @@
 }
 .menu span{
     width: 100%;
-    height: 63%;
+    height: 68%;
     color: #fff;
     text-align: center;
     font-weight: bold;
@@ -50,4 +50,18 @@
 #radio{
     background:  url('https://www.flytap.com/-/media/Flytap/new-tap-pages/destinations/south-america/brazil/recife/recife-banner-mobile-1024x553.jpg') no-repeat;
     background-size: cover;
+}
+.premium {
+    width: 90%;
+    margin: 0px auto;
+    background:#ff4d00 ;
+    height: 10vh;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    padding-top:0.1vh;
+    font-weight: bold;
+    color: #ffff;
+    cursor: pointer;
+    display: block;
 }

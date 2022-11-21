@@ -11,7 +11,7 @@ export default function Sound(){
       <button
       className='audio'
         onClick={() => {
-          audio.loop = true;
+          audio.loop = false;
           audio.play();
         }}
       >
